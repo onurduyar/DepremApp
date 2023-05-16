@@ -13,6 +13,15 @@
 		78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78E383792A13AA95003C8A15 /* DepremApp.xcdatamodeld */; };
 		78E3837D2A13AA96003C8A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E3837C2A13AA96003C8A15 /* Assets.xcassets */; };
 		78E383802A13AA96003C8A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E3837E2A13AA96003C8A15 /* LaunchScreen.storyboard */; };
+		78E383932A13BB1A003C8A15 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383922A13BB1A003C8A15 /* UIColor+Extensions.swift */; };
+		78E383962A13BB3A003C8A15 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383952A13BB3A003C8A15 /* HTTPMethod.swift */; };
+		78E383982A13BB44003C8A15 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383972A13BB44003C8A15 /* ErrorResponse.swift */; };
+		78E3839A2A13BB50003C8A15 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383992A13BB50003C8A15 /* DataRequest.swift */; };
+		78E3839C2A13BB58003C8A15 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3839B2A13BB58003C8A15 /* Endpoint.swift */; };
+		78E3839E2A13BB99003C8A15 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3839D2A13BB99003C8A15 /* APIRequest.swift */; };
+		78E383A02A13BBB4003C8A15 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3839F2A13BBB4003C8A15 /* NetworkService.swift */; };
+		78E383A32A13BBDA003C8A15 /* EarthQuake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383A22A13BBDA003C8A15 /* EarthQuake.swift */; };
+		78E383A52A13BBE3003C8A15 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383A42A13BBE3003C8A15 /* APIResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		78E3837C2A13AA96003C8A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78E3837F2A13AA96003C8A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78E383812A13AA96003C8A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E383922A13BB1A003C8A15 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		78E383952A13BB3A003C8A15 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		78E383972A13BB44003C8A15 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		78E383992A13BB50003C8A15 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		78E3839B2A13BB58003C8A15 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		78E3839D2A13BB99003C8A15 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		78E3839F2A13BBB4003C8A15 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		78E383A22A13BBDA003C8A15 /* EarthQuake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuake.swift; sourceTree = "<group>"; };
+		78E383A42A13BBE3003C8A15 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,8 @@
 		78E383882A13AAEC003C8A15 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				78E383902A13BAF3003C8A15 /* Extensions */,
+				78E3838F2A13BAEB003C8A15 /* Network */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -118,9 +138,56 @@
 		78E3838E2A13AB7A003C8A15 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				78E383A12A13BBCB003C8A15 /* Models */,
 				78E383742A13AA95003C8A15 /* ViewController.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		78E3838F2A13BAEB003C8A15 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				78E383942A13BB29003C8A15 /* Requests */,
+				78E383912A13BAF9003C8A15 /* Services */,
+				78E383952A13BB3A003C8A15 /* HTTPMethod.swift */,
+				78E383972A13BB44003C8A15 /* ErrorResponse.swift */,
+				78E383992A13BB50003C8A15 /* DataRequest.swift */,
+				78E3839B2A13BB58003C8A15 /* Endpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		78E383902A13BAF3003C8A15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78E383922A13BB1A003C8A15 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78E383912A13BAF9003C8A15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				78E3839F2A13BBB4003C8A15 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		78E383942A13BB29003C8A15 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				78E3839D2A13BB99003C8A15 /* APIRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		78E383A12A13BBCB003C8A15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78E383A22A13BBDA003C8A15 /* EarthQuake.swift */,
+				78E383A42A13BBE3003C8A15 /* APIResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,10 +260,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E383A02A13BBB4003C8A15 /* NetworkService.swift in Sources */,
 				78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */,
+				78E3839C2A13BB58003C8A15 /* Endpoint.swift in Sources */,
+				78E383932A13BB1A003C8A15 /* UIColor+Extensions.swift in Sources */,
+				78E383962A13BB3A003C8A15 /* HTTPMethod.swift in Sources */,
 				78E383752A13AA95003C8A15 /* ViewController.swift in Sources */,
 				78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */,
+				78E383A52A13BBE3003C8A15 /* APIResponse.swift in Sources */,
 				78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */,
+				78E383982A13BB44003C8A15 /* ErrorResponse.swift in Sources */,
+				78E3839E2A13BB99003C8A15 /* APIRequest.swift in Sources */,
+				78E383A32A13BBDA003C8A15 /* EarthQuake.swift in Sources */,
+				78E3839A2A13BB50003C8A15 /* DataRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
