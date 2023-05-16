@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		789D5AAD2A13BD010012B0C3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5AAC2A13BD010012B0C3 /* HomeViewModel.swift */; };
 		789D5AB12A13C4B40012B0C3 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5AB02A13C4B40012B0C3 /* MapVC.swift */; };
+		789D5AB92A13C6E30012B0C3 /* EarthQuakeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5AB82A13C6E30012B0C3 /* EarthQuakeListVC.swift */; };
 		78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383702A13AA95003C8A15 /* AppDelegate.swift */; };
 		78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383722A13AA95003C8A15 /* SceneDelegate.swift */; };
 		78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78E383792A13AA95003C8A15 /* DepremApp.xcdatamodeld */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		789D5AAC2A13BD010012B0C3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		789D5AB02A13C4B40012B0C3 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		789D5AB82A13C6E30012B0C3 /* EarthQuakeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuakeListVC.swift; sourceTree = "<group>"; };
 		78E3836D2A13AA95003C8A15 /* DepremApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepremApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E383702A13AA95003C8A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78E383722A13AA95003C8A15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 				789D5AB02A13C4B40012B0C3 /* MapVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		789D5AB72A13C6D60012B0C3 /* EarthQuakeListView */ = {
+			isa = PBXGroup;
+			children = (
+				789D5AB82A13C6E30012B0C3 /* EarthQuakeListVC.swift */,
+			);
+			path = EarthQuakeListView;
 			sourceTree = "<group>";
 		};
 		78E383642A13AA95003C8A15 = {
@@ -165,6 +175,7 @@
 		78E3838E2A13AB7A003C8A15 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				789D5AB72A13C6D60012B0C3 /* EarthQuakeListView */,
 				789D5AAA2A13BCD20012B0C3 /* MapView */,
 				78E383A12A13BBCB003C8A15 /* Models */,
 			);
@@ -295,6 +306,7 @@
 				78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */,
 				78E383A52A13BBE3003C8A15 /* APIResponse.swift in Sources */,
 				78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */,
+				789D5AB92A13C6E30012B0C3 /* EarthQuakeListVC.swift in Sources */,
 				789D5AAD2A13BD010012B0C3 /* HomeViewModel.swift in Sources */,
 				789D5AB12A13C4B40012B0C3 /* MapVC.swift in Sources */,
 				78E383982A13BB44003C8A15 /* ErrorResponse.swift in Sources */,
