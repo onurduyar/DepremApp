@@ -11,7 +11,6 @@
 		789D5AB12A13C4B40012B0C3 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5AB02A13C4B40012B0C3 /* MapVC.swift */; };
 		78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383702A13AA95003C8A15 /* AppDelegate.swift */; };
 		78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383722A13AA95003C8A15 /* SceneDelegate.swift */; };
-		78E383752A13AA95003C8A15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383742A13AA95003C8A15 /* ViewController.swift */; };
 		78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78E383792A13AA95003C8A15 /* DepremApp.xcdatamodeld */; };
 		78E3837D2A13AA96003C8A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E3837C2A13AA96003C8A15 /* Assets.xcassets */; };
 		78E383802A13AA96003C8A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E3837E2A13AA96003C8A15 /* LaunchScreen.storyboard */; };
@@ -32,7 +31,6 @@
 		78E3836D2A13AA95003C8A15 /* DepremApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepremApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E383702A13AA95003C8A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78E383722A13AA95003C8A15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78E383742A13AA95003C8A15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78E3837A2A13AA95003C8A15 /* DepremApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepremApp.xcdatamodel; sourceTree = "<group>"; };
 		78E3837C2A13AA96003C8A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78E3837F2A13AA96003C8A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 			children = (
 				789D5AAA2A13BCD20012B0C3 /* MapView */,
 				78E383A12A13BBCB003C8A15 /* Models */,
-				78E383742A13AA95003C8A15 /* ViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -295,7 +292,6 @@
 				78E3839C2A13BB58003C8A15 /* Endpoint.swift in Sources */,
 				78E383932A13BB1A003C8A15 /* UIColor+Extensions.swift in Sources */,
 				78E383962A13BB3A003C8A15 /* HTTPMethod.swift in Sources */,
-				78E383752A13AA95003C8A15 /* ViewController.swift in Sources */,
 				78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */,
 				78E383A52A13BBE3003C8A15 /* APIResponse.swift in Sources */,
 				78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */,
