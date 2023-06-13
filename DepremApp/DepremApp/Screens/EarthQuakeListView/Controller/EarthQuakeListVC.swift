@@ -66,6 +66,12 @@ final class EarthQuakeListVC: UIViewController {
     }
 }
 extension EarthQuakeListVC: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let currentEarthQuake = earthQuakes[indexPath.row]
+        let detailVC = EarthQuakeDetailVC()
+        detailVC.currentEarthQuake = currentEarthQuake
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
     
 }
 extension EarthQuakeListVC: UITableViewDataSource {
