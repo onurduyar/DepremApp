@@ -51,7 +51,7 @@ final class MapVC: UIViewController {
         }
         
         // CLOSEST
-      
+        
         let magnitude = closestQuake.mag ?? 0.0
         let latitude = closestQuake.geojson?.coordinates?.last
         let longitude = closestQuake.geojson?.coordinates?.first
@@ -59,13 +59,13 @@ final class MapVC: UIViewController {
         createCircle(latitude: latitude, longitude: longitude, magnitude: magnitude,title: nil,subtitle: "En yakın deprem bölgesi")
         
         
-       
+        
         let maxMagnitude = maxQuake.mag ?? 0.0
         let maxLatitude = maxQuake.geojson?.coordinates?.last
         let maxLongitude = maxQuake.geojson?.coordinates?.first
         createAnnotation(latitude: maxLatitude, longitude: maxLongitude, title: "En Büyük Deprem", subtitle: "En Büyük Deprem")
         createCircle(latitude: maxLatitude, longitude: maxLongitude, magnitude: maxMagnitude,title: nil,subtitle: "En Büyük Deprem")
-
+        
     }
     func createAnnotation(latitude: Double?, longitude: Double?, title: String?, subtitle: String?) {
         let annotation = MKPointAnnotation()
@@ -117,30 +117,6 @@ extension MapVC: MKMapViewDelegate {
         return MKOverlayRenderer(overlay: overlay)
     }
     // annotation view
-    /* func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-     guard let annotation = annotation as? MKPointAnnotation else {
-     return nil
-     }
-     let identifier = "customAnnotationView"
-     var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKPinAnnotationView
-     if annotationView == nil {
-     annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-     annotationView?.canShowCallout = true
-     
-     switch annotation.subtitle {
-     case "Bulunduğunuz Konum":
-     annotationView?.pinTintColor = .systemBlue
-     case "En yakın deprem bölgesi":
-     annotationView?.pinTintColor = .black
-     default:
-     annotationView?.pinTintColor = .systemOrange
-     }
-     } else {
-     annotationView?.annotation = annotation
-     }
-     return annotationView
-     }
-     */
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         guard let annotation = annotation as? MKPointAnnotation else {
             return nil
@@ -214,17 +190,11 @@ extension MapVC {
             }
         }
         if let closestQuake {
-            
-            // let distanceInKm = closestDistance / 1000.0
-            /* print("En yakın deprem: Büyüklük \(magnitude), Mesafe \(distanceInKm) km")
-             print(closestQuake.title!) */
-            
-            
             locationManager.stopUpdatingLocation()
             return closestQuake
         } else {
             return nil
-        } // yakın bir deprem yok.
+        } // there is no closest earthQuake
     }
 }
 

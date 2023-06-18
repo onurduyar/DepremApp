@@ -102,8 +102,8 @@
 		789D5AB72A13C6D60012B0C3 /* EarthQuakeListView */ = {
 			isa = PBXGroup;
 			children = (
+				78F133842A3B8D77008251F7 /* View */,
 				7882A1CE2A38746100009614 /* Controller */,
-				7882A1D12A38754100009614 /* EarthQuakeDetailView.swift */,
 			);
 			path = EarthQuakeListView;
 			sourceTree = "<group>";
@@ -243,6 +243,14 @@
 				78E383A42A13BBE3003C8A15 /* APIResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		78F133842A3B8D77008251F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7882A1D12A38754100009614 /* EarthQuakeDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

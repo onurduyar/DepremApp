@@ -15,7 +15,6 @@ class EarthQuakeDetailVC: UIViewController {
             detailView.date = currentEarthQuake?.date
             detailView.mag = currentEarthQuake?.mag
             detailView.depth = currentEarthQuake?.depth
-            print(currentEarthQuake?.title)
         }
     }
     override func viewDidLoad() {
