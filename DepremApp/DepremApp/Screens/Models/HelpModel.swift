@@ -9,5 +9,6 @@ import Foundation
 
 struct Help: Decodable {
     let title: String?
+    let image: String?
     let description: [String]?
 }
