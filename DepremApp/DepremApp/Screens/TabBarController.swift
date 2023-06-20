@@ -28,7 +28,7 @@ final class TabBarController: UITabBarController {
         secondNavVC.tabBarItem.selectedImage = UIImage(systemName: "map.fill")?.withRenderingMode(.alwaysOriginal)
         
     
-        let thirdVC = EarthQuakeListVC()
+        let thirdVC = HelpVC()
         let thirdNavVC = UINavigationController(rootViewController: thirdVC)
         thirdNavVC.title = "Yardım"
         thirdNavVC.tabBarItem.image = UIImage(systemName: "cross.circle")

@@ -19,6 +19,8 @@ enum ErrorResponse: Error {
             return "Data not found."
         case .invalidResponse:
             return "Invalid response."
+        case .fileNotFound:
+            return "File not found."
         }
     }
     
@@ -26,4 +28,5 @@ enum ErrorResponse: Error {
     case responseNotFound
     case dataNotFound
     case invalidResponse
+    case fileNotFound
 }

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Depremde Dikkat Edilecek Şeyler",
+        "description": [
+            "Evde bulunduğunuzda yapmanız gerekenler:",
+            "- Evinizde güvenli bir alan belirleyin ve herkesin bu alana sığabileceğinden emin olun.",
+            "- Kitaplık, dolap veya ağır eşyaların üstünde duran cisimleri düşmekten korumak için sabitleyin.",
+            "- Acil durum çantası hazırlayın ve içerisine su, yiyecek, ilaç, el feneri gibi temel ihtiyaçları koyun."
+        ]
+    },
+    {
+        "title": "Açık alanda bulunduğunuzda yapmanız gerekenler:",
+        "description": [
+            "- Ağaç, direk veya binalardan uzak durun.",
+            "- Eğer mümkünse açık alana çıkın ve bina, elektrik direği gibi potansiyel tehlikelerden uzak durun.",
+            "- Yıkılma riski olan yapıların yakınına gitmeyin."
+        ]
+    },
+    {
+        "title": "Araçta bulunduğunuzda yapmanız gerekenler:",
+        "description": [
+            "- Araç kullanırken, hızınızı azaltın ve kontrollü bir şekilde durun.",
+            "- Köprüler, viyadükler ve binalar gibi tehlikeli alanlardan uzak durun.",
+            "- Trafik akışını engellememek için güvenli bir yere çekilin."
+        ]
+    },
+    {
+        "title": "Acil Numaralar",
+        "description": [
+            "112 Acil Çağrı Merkezi: Ambulans, polis, jandarma, itfaiye, orman yangını ihbarı benzeri pek çok acil durum birimine sadece 112’yi tuşlayarak, tek hat üzerinden ulaşabilirsiniz",
+            "110 İtfaiye: Yangın ve itfaiye olaylarla ilgili acil yardım ihtiyacı duyduğunuzda arayabilirsiniz."
+        ]
+    },
+    {
+        "title": "Siren Çal",
+        "description": []
+    }
+]

@@ -13,6 +13,8 @@
 		789D5AB12A13C4B40012B0C3 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5AB02A13C4B40012B0C3 /* MapVC.swift */; };
 		789D5AB92A13C6E30012B0C3 /* EarthQuakeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5AB82A13C6E30012B0C3 /* EarthQuakeListVC.swift */; };
 		789D5ABB2A13C7FA0012B0C3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5ABA2A13C7FA0012B0C3 /* TabBarController.swift */; };
+		78B2AF3B2A3F965F00614C42 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B2AF3A2A3F965F00614C42 /* HelpModel.swift */; };
+		78B2AF3D2A3F96AF00614C42 /* LocalRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B2AF3C2A3F96AF00614C42 /* LocalRequest.swift */; };
 		78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383702A13AA95003C8A15 /* AppDelegate.swift */; };
 		78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383722A13AA95003C8A15 /* SceneDelegate.swift */; };
 		78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78E383792A13AA95003C8A15 /* DepremApp.xcdatamodeld */; };
@@ -27,6 +29,11 @@
 		78E383A02A13BBB4003C8A15 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3839F2A13BBB4003C8A15 /* NetworkService.swift */; };
 		78E383A32A13BBDA003C8A15 /* EarthQuake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383A22A13BBDA003C8A15 /* EarthQuake.swift */; };
 		78E383A52A13BBE3003C8A15 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383A42A13BBE3003C8A15 /* APIResponse.swift */; };
+		78FBD00E2A3F5A6C0091F545 /* helpdata.json in Sources */ = {isa = PBXBuildFile; fileRef = 78FBD00D2A3F5A6C0091F545 /* helpdata.json */; };
+		78FBD0132A3F5B4E0091F545 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBD0122A3F5B4E0091F545 /* HelpVC.swift */; };
+		78FBD0152A3F5C230091F545 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBD0142A3F5C230091F545 /* HelpView.swift */; };
+		78FBD0172A3F5C5A0091F545 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBD0162A3F5C5A0091F545 /* CGFloat+Extensions.swift */; };
+		78FBD0192A3F5D430091F545 /* MediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBD0182A3F5D430091F545 /* MediaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,8 @@
 		789D5AB02A13C4B40012B0C3 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		789D5AB82A13C6E30012B0C3 /* EarthQuakeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuakeListVC.swift; sourceTree = "<group>"; };
 		789D5ABA2A13C7FA0012B0C3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		78B2AF3A2A3F965F00614C42 /* HelpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpModel.swift; sourceTree = "<group>"; };
+		78B2AF3C2A3F96AF00614C42 /* LocalRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRequest.swift; sourceTree = "<group>"; };
 		78E3836D2A13AA95003C8A15 /* DepremApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepremApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E383702A13AA95003C8A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78E383722A13AA95003C8A15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +61,11 @@
 		78E3839F2A13BBB4003C8A15 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		78E383A22A13BBDA003C8A15 /* EarthQuake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuake.swift; sourceTree = "<group>"; };
 		78E383A42A13BBE3003C8A15 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		78FBD00D2A3F5A6C0091F545 /* helpdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = helpdata.json; sourceTree = "<group>"; };
+		78FBD0122A3F5B4E0091F545 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		78FBD0142A3F5C230091F545 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		78FBD0162A3F5C5A0091F545 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		78FBD0182A3F5D430091F545 /* MediaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,12 +150,13 @@
 		78E383872A13AAA1003C8A15 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				78FBD00D2A3F5A6C0091F545 /* helpdata.json */,
 				78E383792A13AA95003C8A15 /* DepremApp.xcdatamodeld */,
+				78E383882A13AAEC003C8A15 /* Core */,
 				78E3838D2A13AB42003C8A15 /* Assets */,
 				78E3838C2A13AB37003C8A15 /* Views */,
 				78E3838A2A13AAF1003C8A15 /* Plists */,
 				78E383892A13AAEF003C8A15 /* Delegates */,
-				78E383882A13AAEC003C8A15 /* Core */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -194,6 +209,7 @@
 				789D5ABA2A13C7FA0012B0C3 /* TabBarController.swift */,
 				789D5AB72A13C6D60012B0C3 /* EarthQuakeListView */,
 				789D5AAA2A13BCD20012B0C3 /* MapView */,
+				78FBD00F2A3F5B0F0091F545 /* HelpView */,
 				78E383A12A13BBCB003C8A15 /* Models */,
 			);
 			path = Screens;
@@ -216,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				78E383922A13BB1A003C8A15 /* UIColor+Extensions.swift */,
+				78FBD0162A3F5C5A0091F545 /* CGFloat+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -232,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				78E3839D2A13BB99003C8A15 /* APIRequest.swift */,
+				78B2AF3C2A3F96AF00614C42 /* LocalRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -241,6 +259,7 @@
 			children = (
 				78E383A22A13BBDA003C8A15 /* EarthQuake.swift */,
 				78E383A42A13BBE3003C8A15 /* APIResponse.swift */,
+				78B2AF3A2A3F965F00614C42 /* HelpModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +270,16 @@
 				7882A1D12A38754100009614 /* EarthQuakeDetailView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		78FBD00F2A3F5B0F0091F545 /* HelpView */ = {
+			isa = PBXGroup;
+			children = (
+				78FBD0122A3F5B4E0091F545 /* HelpVC.swift */,
+				78FBD0142A3F5C230091F545 /* HelpView.swift */,
+				78FBD0182A3F5D430091F545 /* MediaCollectionViewCell.swift */,
+			);
+			path = HelpView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,23 +352,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FBD0172A3F5C5A0091F545 /* CGFloat+Extensions.swift in Sources */,
 				78E383A02A13BBB4003C8A15 /* NetworkService.swift in Sources */,
+				78FBD0132A3F5B4E0091F545 /* HelpVC.swift in Sources */,
 				789D5ABB2A13C7FA0012B0C3 /* TabBarController.swift in Sources */,
 				78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */,
 				78E3839C2A13BB58003C8A15 /* Endpoint.swift in Sources */,
 				78E383932A13BB1A003C8A15 /* UIColor+Extensions.swift in Sources */,
 				78E383962A13BB3A003C8A15 /* HTTPMethod.swift in Sources */,
+				78B2AF3D2A3F96AF00614C42 /* LocalRequest.swift in Sources */,
 				78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */,
 				78E383A52A13BBE3003C8A15 /* APIResponse.swift in Sources */,
 				78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */,
+				78FBD0152A3F5C230091F545 /* HelpView.swift in Sources */,
+				78B2AF3B2A3F965F00614C42 /* HelpModel.swift in Sources */,
 				789D5AB92A13C6E30012B0C3 /* EarthQuakeListVC.swift in Sources */,
 				789D5AAD2A13BD010012B0C3 /* HomeViewModel.swift in Sources */,
+				78FBD0192A3F5D430091F545 /* MediaCollectionViewCell.swift in Sources */,
 				789D5AB12A13C4B40012B0C3 /* MapVC.swift in Sources */,
 				7882A1D22A38754100009614 /* EarthQuakeDetailView.swift in Sources */,
 				78E383982A13BB44003C8A15 /* ErrorResponse.swift in Sources */,
 				7882A1D02A3874C200009614 /* EarthQuakeDetailVC.swift in Sources */,
 				78E3839E2A13BB99003C8A15 /* APIRequest.swift in Sources */,
 				78E383A32A13BBDA003C8A15 /* EarthQuake.swift in Sources */,
+				78FBD00E2A3F5A6C0091F545 /* helpdata.json in Sources */,
 				78E3839A2A13BB50003C8A15 /* DataRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
