@@ -32,6 +32,8 @@ class MediaCollectionViewCell: UICollectionViewCell {
     
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
+        imageView.layer.cornerRadius = 10
+        imageView.clipsToBounds = true
         return imageView
     }()
     
@@ -64,9 +66,9 @@ class MediaCollectionViewCell: UICollectionViewCell {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(imageView)
         NSLayoutConstraint.activate([
-            imageView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+            imageView.leadingAnchor.constraint(equalTo: self.leadingAnchor,constant: 5),
             imageView.topAnchor.constraint(equalTo: self.topAnchor),
-            imageView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            imageView.trailingAnchor.constraint(equalTo: self.trailingAnchor,constant: -5),
             imageView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
         ])
         imageView.layer.insertSublayer(gradientLayer, at: .zero)

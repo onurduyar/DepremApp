@@ -81,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		780DB6AC2A4203B100768ECF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78FBD0122A3F5B4E0091F545 /* HelpVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		780DB6AD2A4203B700768ECF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78FBD0142A3F5C230091F545 /* HelpView.swift */,
+				78FBD0182A3F5D430091F545 /* MediaCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7882A1CE2A38746100009614 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,9 +295,8 @@
 		78FBD00F2A3F5B0F0091F545 /* HelpView */ = {
 			isa = PBXGroup;
 			children = (
-				78FBD0122A3F5B4E0091F545 /* HelpVC.swift */,
-				78FBD0142A3F5C230091F545 /* HelpView.swift */,
-				78FBD0182A3F5D430091F545 /* MediaCollectionViewCell.swift */,
+				780DB6AD2A4203B700768ECF /* Views */,
+				780DB6AC2A4203B100768ECF /* Controllers */,
 			);
 			path = HelpView;
 			sourceTree = "<group>";
