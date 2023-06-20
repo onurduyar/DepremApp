@@ -9,7 +9,7 @@ import UIKit
 
 class HelpVC: UIViewController {
     let helpView = HelpView()
-    let networkManager = BaseNetworkService()
+    let networkManager = LocalJSONNetworkService()
     override func viewDidLoad() {
         super.viewDidLoad()
         view = helpView

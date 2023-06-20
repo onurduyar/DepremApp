@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		782A83672A41B898001FEC75 /* helpdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 782A83662A41B898001FEC75 /* helpdata.json */; };
+		782A83692A41B994001FEC75 /* LocalJSONNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A83682A41B994001FEC75 /* LocalJSONNetworkService.swift */; };
 		7882A1D02A3874C200009614 /* EarthQuakeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882A1CF2A3874C200009614 /* EarthQuakeDetailVC.swift */; };
 		7882A1D22A38754100009614 /* EarthQuakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882A1D12A38754100009614 /* EarthQuakeDetailView.swift */; };
 		789D5AAD2A13BD010012B0C3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5AAC2A13BD010012B0C3 /* HomeViewModel.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		782A83662A41B898001FEC75 /* helpdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = helpdata.json; sourceTree = "<group>"; };
+		782A83682A41B994001FEC75 /* LocalJSONNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJSONNetworkService.swift; sourceTree = "<group>"; };
 		7882A1CF2A3874C200009614 /* EarthQuakeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuakeDetailVC.swift; sourceTree = "<group>"; };
 		7882A1D12A38754100009614 /* EarthQuakeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuakeDetailView.swift; sourceTree = "<group>"; };
 		789D5AAC2A13BD010012B0C3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				78E3839F2A13BBB4003C8A15 /* NetworkService.swift */,
+				782A83682A41B994001FEC75 /* LocalJSONNetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				78E383A02A13BBB4003C8A15 /* NetworkService.swift in Sources */,
 				78FBD0132A3F5B4E0091F545 /* HelpVC.swift in Sources */,
 				789D5ABB2A13C7FA0012B0C3 /* TabBarController.swift in Sources */,
+				782A83692A41B994001FEC75 /* LocalJSONNetworkService.swift in Sources */,
 				78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */,
 				78E3839C2A13BB58003C8A15 /* Endpoint.swift in Sources */,
 				78E383932A13BB1A003C8A15 /* UIColor+Extensions.swift in Sources */,
