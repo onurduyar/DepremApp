@@ -33,6 +33,7 @@ final class MapVC: UIViewController {
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
+        
     }
     
     func annotateAllEarthQuakes() {

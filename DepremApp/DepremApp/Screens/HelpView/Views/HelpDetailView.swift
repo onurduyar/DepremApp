@@ -19,7 +19,7 @@ class HelpDetailView: UIView {
             soundButton.isHidden = buttonIsHidden ?? true
         }
     }
-    private lazy var soundButton: UIButton = {
+    lazy var soundButton: UIButton = {
         let uiButton = UIButton(type: .system)
         uiButton.titleLabel?.font = UIFont.systemFont(ofSize: 24, weight: .bold)
         uiButton.setTitle("Siren Çal", for: .normal)
@@ -63,13 +63,13 @@ class HelpDetailView: UIView {
         ])
     }
     func setupButton() {
-           addSubview(soundButton)
-           soundButton.translatesAutoresizingMaskIntoConstraints = false
-           NSLayoutConstraint.activate([
+        addSubview(soundButton)
+        soundButton.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
             soundButton.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 30),
-               soundButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 70),
+            soundButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 70),
             soundButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -70.0),
-               soundButton.heightAnchor.constraint(equalToConstant: 80)
-           ])
-       }
+            soundButton.heightAnchor.constraint(equalToConstant: 80)
+        ])
+    }
 }

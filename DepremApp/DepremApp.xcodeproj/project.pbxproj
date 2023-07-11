@@ -19,6 +19,8 @@
 		789D5ABB2A13C7FA0012B0C3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D5ABA2A13C7FA0012B0C3 /* TabBarController.swift */; };
 		78B2AF3B2A3F965F00614C42 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B2AF3A2A3F965F00614C42 /* HelpModel.swift */; };
 		78B2AF3D2A3F96AF00614C42 /* LocalRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B2AF3C2A3F96AF00614C42 /* LocalRequest.swift */; };
+		78DD11942A5D7B9D003EC4EC /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD11932A5D7B9D003EC4EC /* PlayerManager.swift */; };
+		78DD11962A5D7F17003EC4EC /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78DD11952A5D7F16003EC4EC /* sound.mp3 */; };
 		78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383702A13AA95003C8A15 /* AppDelegate.swift */; };
 		78E383732A13AA95003C8A15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E383722A13AA95003C8A15 /* SceneDelegate.swift */; };
 		78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78E383792A13AA95003C8A15 /* DepremApp.xcdatamodeld */; };
@@ -52,6 +54,8 @@
 		789D5ABA2A13C7FA0012B0C3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		78B2AF3A2A3F965F00614C42 /* HelpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpModel.swift; sourceTree = "<group>"; };
 		78B2AF3C2A3F96AF00614C42 /* LocalRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRequest.swift; sourceTree = "<group>"; };
+		78DD11932A5D7B9D003EC4EC /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		78DD11952A5D7F16003EC4EC /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 		78E3836D2A13AA95003C8A15 /* DepremApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepremApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E383702A13AA95003C8A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78E383722A13AA95003C8A15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +151,14 @@
 			path = EarthQuakeListView;
 			sourceTree = "<group>";
 		};
+		78DD11922A5D7B90003EC4EC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				78DD11932A5D7B9D003EC4EC /* PlayerManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		78E383642A13AA95003C8A15 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +187,7 @@
 		78E383872A13AAA1003C8A15 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				78DD11952A5D7F16003EC4EC /* sound.mp3 */,
 				782A83662A41B898001FEC75 /* helpdata.json */,
 				78E383792A13AA95003C8A15 /* DepremApp.xcdatamodeld */,
 				78E383882A13AAEC003C8A15 /* Core */,
@@ -189,6 +202,7 @@
 		78E383882A13AAEC003C8A15 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				78DD11922A5D7B90003EC4EC /* Managers */,
 				78E383902A13BAF3003C8A15 /* Extensions */,
 				78E3838F2A13BAEB003C8A15 /* Network */,
 			);
@@ -365,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78DD11962A5D7F17003EC4EC /* sound.mp3 in Resources */,
 				78E383802A13AA96003C8A15 /* LaunchScreen.storyboard in Resources */,
 				782A83672A41B898001FEC75 /* helpdata.json in Resources */,
 				78E3837D2A13AA96003C8A15 /* Assets.xcassets in Resources */,
@@ -388,6 +403,7 @@
 				78E3837B2A13AA95003C8A15 /* DepremApp.xcdatamodeld in Sources */,
 				78E3839C2A13BB58003C8A15 /* Endpoint.swift in Sources */,
 				78E383932A13BB1A003C8A15 /* UIColor+Extensions.swift in Sources */,
+				78DD11942A5D7B9D003EC4EC /* PlayerManager.swift in Sources */,
 				78E383962A13BB3A003C8A15 /* HTTPMethod.swift in Sources */,
 				78B2AF3D2A3F96AF00614C42 /* LocalRequest.swift in Sources */,
 				78E383712A13AA95003C8A15 /* AppDelegate.swift in Sources */,
